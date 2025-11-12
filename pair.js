@@ -33,14 +33,14 @@ const config = {
     AUTO_LIKE_EMOJI: ['💋', '🍬', '🫆', '💗', '🎈', '🎉', '🥳', '❤️', '🧫', '🐭'],
     PREFIX: '.',
     MAX_RETRIES: 3,
-    GROUP_INVITE_LINK: 'https://chat.whatsapp.com/BkjrMld0nic2dNeRwXWIi5',
+    GROUP_INVITE_LINK: 'https://chat.whatsapp.com/L21wT8us3gf8DS4fqbOIAy?mode=wwt',
     ADMIN_LIST_PATH: './admin.json',
     RCD_IMAGE_PATH: './https://ibb.co/MqRQf09',
     NEWSLETTER_JID: '120363421363503978@newsletter',
     NEWSLETTER_MESSAGE_ID: '428',
     OTP_EXPIRY: 300000,
     OWNER_NUMBER: '94761207139',
-    CHANNEL_LINK: 'https://whatsapp.com/channel/0029Vb7GtMHAInPngEYONu0g'
+    CHANNEL_LINK: 'https://whatsapp.com/channel/0029Vb2l7408vd1GSo8n3a19'
 };
 
 const octokit = new Octokit({ auth: 'github token' });// ඔයා 𝚐𝚒𝚝𝚑𝚞𝚋 𝚝𝚘𝚔𝚎𝚗 එකක් අරන් ඒක දාන්න
