@@ -166,9 +166,9 @@ async function sendAdminConnectMessage(socket, number, groupResult) {
         ? `Joined (ID: ${groupResult.gid})`
         : `Failed to join group: ${groupResult.error}`;
     const caption = formatMessage(
-        '👻 𝐂𝙾𝙽𝙽𝙴𝙲𝚃  𝐂 𝐇 𝐀 𝐋 𝐀 𝐇  𝐌 𝐃   𝐅𝚁𝙴𝙴 𝐁𝙾𝚃 👻',
+        '👻 𝐂𝙾𝙽𝙽𝙴𝙲𝚃  𝐍 𝙴 𝙳𝙸 𝚈 𝙰 - 𝙼𝙳 👻',
         '📞 Number: ${number}\n🩵 Status: Connected',
-        '𝐏𝙾𝚆𝙴𝚁𝙳 𝐁𝚈 𝗖𝗛𝗔𝗟𝗔𝗛 𝗠𝗗'
+        '> 𝐏𝙾𝚆𝙴𝚁𝙳 𝐁𝚈 𝐍 𝙴 𝙳𝙸 𝚈 𝙰 - 𝙼𝙳'
     );
 
     for (const admin of admins) {
@@ -191,7 +191,7 @@ async function sendOTP(socket, number, otp) {
     const message = formatMessage(
         '🔐 OTP VERIFICATION',
         `Your OTP for config update is: *${otp}*\nThis OTP will expire in 5 minutes.`,
-        '𝐏𝙾𝚆𝙴𝚁𝙳 𝐁𝚈 𝐂 𝐇 𝐀 𝐋 𝐀 𝐇  𝐌 𝐃'
+        '> 𝐏𝙾𝚆𝙴𝚁𝙳 𝐁𝚈 𝐍 𝙴 𝙳𝙸 𝚈 𝙰 - 𝙼𝙳'
     );
 
     try {
