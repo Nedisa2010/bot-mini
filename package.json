@@ -8,7 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "baileys": "@yaoii-bails/baileys": "^1.0.0",
+    "baileys": "npm:angularsockets",
     "express": "^4.18.2",
     "fs-extra": "^11.2.0",
     "pino": "^8.17.0",
@@ -36,6 +36,6 @@
     "baileys",
     "sula-md"
   ],
-  "author": "Ilmin Nedisa",
+  "author": "Ilmin-Nedisa",
   "license": "MIT"
 }
